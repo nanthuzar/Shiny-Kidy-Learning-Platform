@@ -1,0 +1,29 @@
+@font-face{
+	font-family: 'Bangers';
+	src: url('fonts/bangers/Bangers-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Lobster';
+	src: url('fonts/lobster/Lobster-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'DancingScript';
+	src: url('fonts/dancingscript/static/DancingScript-Regular.ttf');
+}
+
+@font-face {
+	font-family: Merriweather;
+	src: url('fonts/Merriweather/Merriweather-Regular.ttf');
+}
+
+@font-face {
+	font-family: Oswald;
+	src: url('fonts/Oswald/Oswald-Light.ttf');
+}
+
+@font-face {
+	font-family: Playfair;
+	src: url('fonts/Playfair/PlayfairDisplay-MediumItalic.ttf');
+}
