@@ -10,3 +10,146 @@
 	top: 500px;
 }
 
+/*Start Contact CSS*/
+#contact_style img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px; 
+    opacity: 0.8;
+}
+/*Adress*/
+#contact_text i{
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 120px;
+    font-size: 20;
+}
+
+#contact_text h5{
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 170px;
+    font-size: 20px;
+}
+#contact_text p{
+    position: absolute;
+    color: white;
+    top: 210px;
+    left: 170px;
+    font-size: 20px;
+}
+
+/*Phone Discu*/
+#contact_text2 i{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 120px;
+    font-size: 20;
+}
+#contact_text2 h5{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 170px;
+    font-size: 20px;
+}
+#contact_text2 p{
+    position: absolute;
+    top: 330px;
+    left: 170px;
+    font-size: 20px;
+}
+
+/*Gmail*/
+#contact_text3 i{
+    position: absolute;
+    color: white;
+    top: 480px;
+    left: 120px;
+    font-size: 20;
+}
+#contact_text3 h5{
+    position: absolute;
+    color: white;
+    top: 480px;
+    left: 170px;
+    font-size: 20px;
+}
+#contact_text3 p{
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    font-size: 20px;
+}
+
+/*Social*/
+#contact_text4 i{
+    position: absolute;
+    color: white;
+    top: 590px;
+    left: 120px;
+    font-size: 20;
+}
+#contact_text4 h5{
+    position: absolute;
+    color: white;
+    top: 590px;
+    left: 170px;
+    font-size: 20px;
+}
+
+#social_icon i{
+	position: absolute;
+	color: white;
+    top: 620px;
+    left: 170px;
+    font-size: 40px;
+}
+
+#social_icon1 i{
+	position: absolute;
+	color: white;
+    top: 620px;
+    left: 220px;
+    font-size: 40px;
+}
+
+#social_icon2 i{
+	position: absolute;
+	color: white;
+    top: 620px;
+    left: 270px;
+    font-size: 40px;
+}
+
+#social_icon3 i{
+	position: absolute;
+	color: white;
+    top: 620px;
+    left: 320px;
+    font-size: 40px;
+}
+
+#social_icon4 i{
+	position: absolute;
+	color: white;
+    top: 620px;
+    left: 370px;
+    font-size: 40px;
+}
+
+.contact{
+	background: url(images/ct1.jpg);
+	background-size: cover;
+}
+
+.googlemap{
+	width: 80%;
+	margin-left: 10%;
+}
+/*End of Contact CSS*/
