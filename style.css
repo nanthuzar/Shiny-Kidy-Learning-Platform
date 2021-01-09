@@ -28,7 +28,7 @@
 .bg-color{
 	color: #9aaf50;
 }
-
+/*answer option*/
 .option-container .option{
 	opacity: 0;
 	animation: fadeIn 0.3s ease forwards;
