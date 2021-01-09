@@ -140,80 +140,80 @@
     color: white;
     top: 180px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 #contact_text p{
     position: absolute;
     color: white;
     top: 210px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*Phone Discu*/
 #contact_text2 i{
     position: absolute;
     color: white;
-    top: 300px;
+    top: 350px;
     left: 120px;
     font-size: 20;
 }
 #contact_text2 h5{
     position: absolute;
     color: white;
-    top: 300px;
+    top: 350px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 #contact_text2 p{
     position: absolute;
-    top: 330px;
+    top: 380px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*Gmail*/
 #contact_text3 i{
     position: absolute;
     color: white;
-    top: 480px;
+    top: 500px;
     left: 120px;
     font-size: 20;
 }
 #contact_text3 h5{
     position: absolute;
     color: white;
-    top: 480px;
+    top: 500px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 #contact_text3 p{
     position: absolute;
-    top: 500px;
+    top: 520px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*Social*/
 #contact_text4 i{
     position: absolute;
     color: white;
-    top: 590px;
+    top: 620px;
     left: 120px;
     font-size: 20;
 }
 #contact_text4 h5{
     position: absolute;
     color: white;
-    top: 590px;
+    top: 620px;
     left: 170px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #social_icon i{
 	position: absolute;
 	color: white;
-    top: 620px;
+    top: 650px;
     left: 170px;
     font-size: 40px;
 }
@@ -221,7 +221,7 @@
 #social_icon1 i{
 	position: absolute;
 	color: white;
-    top: 620px;
+    top: 650px;
     left: 220px;
     font-size: 40px;
 }
@@ -229,7 +229,7 @@
 #social_icon2 i{
 	position: absolute;
 	color: white;
-    top: 620px;
+    top: 650px;
     left: 270px;
     font-size: 40px;
 }
@@ -237,7 +237,7 @@
 #social_icon3 i{
 	position: absolute;
 	color: white;
-    top: 620px;
+    top: 650px;
     left: 320px;
     font-size: 40px;
 }
@@ -245,7 +245,7 @@
 #social_icon4 i{
 	position: absolute;
 	color: white;
-    top: 620px;
+    top: 650px;
     left: 370px;
     font-size: 40px;
 }
@@ -260,3 +260,72 @@
 	margin-left: 10%;
 }
 /*End of Contact CSS*/
+
+/*About Css ttsh*/
+.top_button{
+	position: fixed;
+	left: 1200px;
+	top: 500px;
+}
+
+.coursel_text{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	font-size: ;
+}
+#about h1{
+	text-align: center;
+	margin: 120px 0px
+	padding: 0px 150px;
+}
+#about hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#passion h3{
+	text-align: center;
+	
+}
+#passion hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.background_img{
+	background-image: url(images/img9.jpg);
+	height: 300px;
+	background-attachment: fixed;
+}
+#container hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story img{
+	border-radius: 60%;
+}
+/*------------end about css--------------*/
