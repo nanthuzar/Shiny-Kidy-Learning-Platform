@@ -43,91 +43,61 @@
 	</div>
 	<!-- end navbar -->
 
+	<div class="home-box custom-box">
+		<h3>Having Fun with Games!!</h3>
+		<p>Total number of questions: <span class="total-questions"></span></p>
+		<button class="btn" type="button" onclick="startQuiz()">Start</button>
+	</div>
 
-	<!-- carousel -->
-	
-	<!-- end carousel -->
- 
-
-	<!-- courses -->
-	<h3 class="text-center text-info my-5">Courses what we offer</h3>
-	<div class="container">
+	<!-- <div class="container" hidden="">
+		<div>
+		<h2>What is apple?</h2>
 		<div class="row">
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="card-title text-center">Alphabets</h4>
-					</div>
-					<img src="images/apple.png" class="card-img-top">
-					<div class="card-body">
-						<p>Kid will learn alphabets with pictures with having fan. Let's go to learn!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="card-title text-center">Listening</h4>
-					</div>
-					<img src="images/apple.png" class="card-img-top">
-					<div class="card-body">
-						<p>Kid will learn alphabets or colors with videos. Let's listen together!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="card-title text-center">Nursery songs</h4>
-					</div>
-					<img src="images/apple.png" class="card-img-top">
-					<div class="card-body">
-						<p>Kid can sing and dance happily together by watching nursery videos. Let's sing together!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="card-title text-center">Activity</h4>
-					</div>
-					<img src="images/apple.png" class="card-img-top">
-					<div class="card-body">
-						<p>Kid can play simple quizzes to gain more knowledge. Let's fun!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
-					</div>
-				</div>
-			</div>
+			<div class="col-4"><img src="images/apple.png" width="100" height="100"></div>
+			<div class="col-4"><img src="images/banana.png" width="100" height="100"></div>
+			<div class="col-4"><img src="images/orange.png" width="100" height="100"></div>
 		</div>
 	</div>
-	<!-- end courses -->
+	<button class="btn btn-small bg-success text-white">Next</button>
+	<hr> -->
 
-	<!-- what we will learn? -->
-	<div class="container my-5 py-3">
-		<div class="row mt-3">
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-				<h2 class="text-center">What we will learn?</h2>
-				<img src="images/carousel1.jpg" class="img-fluid">
-			</div>
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
-				<h4 class="mx-3"><i class="far fa-images mx-3"></i>Learn with pictures</h4>
-				<p class="mx-5">Kids can learn with animation pictures.</p>
-				<h4 class="mx-3"><i class="fas fa-video mx-3"></i>Learn with videos</h4>
-				<p class="mx-5">Kids can sing, pronounce and dance by learning with videos.</p>
-				<h4 class="mx-3"><i class="fas fa-file-audio mx-3"></i>Learn with audio files.</h4>
-				<p class="mx-5">Kids can learn things by listening audio files.</p>
-				<h4 class="mx-3"><i class="fas fa-gamepad mx-3"></i>Learn with audio files.</h4>
-				<p class="mx-5">Kids can have fun by playing simple games which they learned from this website.</p>
-			</div>
+	<div class="quiz-box custom-box hide">
+		<div class="question-number">
+			<!-- Question 1 of 5 -->
 		</div>
+		<div class="question-text">
+			<!-- What is apple? -->
+		</div>
+		<div class="option-container">
+
+		</div>
+		<div class="next-question-btn">
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+		<div class="answers-indicator">
+			<!-- <div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div> -->
+		</div>
+	</div>
+	
+
 		
+		
+	
+	<div class="result-box custom-box hide">
+		<h1>Your Score</h1>
+		<h1>Congratulation!!!</h1>
+		<h3><span class="total-score"></span></h3>
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+		<button type="button" class="btn" onclick="goToHome()">Go To Home</button>
 	</div>
+		
+	
 
-	<!-- end what we wil learn? -->
-
+	
 
 
 	<!-- footer -->
@@ -195,9 +165,12 @@
 
 	<!-- end footer -->	
 
-	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js">
+		
+	</script>
 
-	<!-- <script src="app.js"></script> -->
+	<script src="activity.js"></script>
+	<script src="app.js"></script>
 
 </body>
 </html>
