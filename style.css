@@ -3,6 +3,10 @@ body, html{
 	height: 100%;
 }
 
+div#Navbar a.active{
+	border-bottom: 2px solid #ffff93
+}
+
 .body_bg_photo{
 	background-image: url(./images/body_background.png);
 	background-position: center;
@@ -451,7 +455,7 @@ body, html{
 	background-attachment: fixed;
 }
 
-#container hr{
+#passion hr{
 	height: 1px;
 	border:none;
 	color: blue;

@@ -61,7 +61,7 @@ function getNewQuestion(){
 		availableOptions.push(i);
 	}
 	//console.log(availableOptions)
-	questionCounter++;
+	//questionCounter++;
 
 	//console.log(questionIndex);
 	optionContainer.innerHTML = '';
