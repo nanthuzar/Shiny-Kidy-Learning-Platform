@@ -288,6 +288,7 @@ div#Navbar a.active{
 /*End of Contact CSS*/
 
 /*Start client logo slider css*/
+
 .slick-slide {
     margin: 0px 20px;
 }
@@ -405,6 +406,15 @@ div#Navbar a.active{
 /*End client logo slider css*/
 
 /*About Css ttsh*/
+#logoslide hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
 .top_button{
 	position: fixed;
 	left: 1200px;
@@ -478,7 +488,235 @@ div#Navbar a.active{
 #story img{
 	border-radius: 60%;
 }
+#logo hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#category hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#courses hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#logo hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#location hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#slideshow hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#touch hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
 /*------------end about css--------------*/
+/*About Css ttsh*/
+.top_button{
+	position: fixed;
+	left: 1200px;
+	top: 500px;
+}
+
+.coursel_text{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	font-size: ;
+}
+#about h1{
+	text-align: center;
+	margin: 120px 0px
+	padding: 0px 150px;
+}
+#about hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#passion h3{
+	text-align: center;
+	
+}
+#passion hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.background_img{
+	background-image: url(images/img9.jpg);
+	height: 300px;
+	background-attachment: fixed;
+}
+#container hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story img{
+	border-radius: 60%;
+}
+/*------------end about css--------------*/
+/*rating */
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+.broun-block {
+    background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
+    padding-bottom: 34px;
+}
+.block-text {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #2c2222;
+    color: #626262;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 15px 18px;
+}
+.block-text a {
+ color: #7d4702;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 21px;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.mark {
+    padding: 12px 0;background:none;
+}
+.block-text p {
+    color: #585858;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 20px;
+}
+.sprite {
+
+}
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+.block-text ins {
+    bottom: -44px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.block {
+    display: block;
+}
+.zmin {
+    z-index: 1;
+}
+.ab {
+    position: absolute;
+}
+
+.person-text {
+    padding: 10px 0 0;
+    text-align: center;
+    z-index: 2;
+}
+.person-text a {
+    color: #ffcc00;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+.person-text i {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 13px;
+}
+.rel {
+    position: relative;
+}
+#rating hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;	
+}
+#hr hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;	
+}
 
 /*start index page*/
 .pic{
