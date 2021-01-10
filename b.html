@@ -20,8 +20,11 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
+	<!-- AOS = animated on scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 </head>
-<body>
+<body class="body_bg_photo">
 
 	<!-- navbar -->
 	<div class="navbar navbar-expand-lg bg-info navbar-dark">
@@ -34,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="Navbar">
 				<ul class="navbar-nav ms-auto">
 				<li class="nav-item mx-4 font1"><a href="./index.html" class="nav-link">Home</a></li>
-				<li class="nav-item mx-4 font1"><a href="courses.html" class="nav-link">Courses</a></li>
+				<li class="nav-item mx-4 font1"><a href="courses.html" class="nav-link">Category</a></li>
 				<li class="nav-item mx-4 font1"><a href="./about.html" class="nav-link">About</a></li>
 				<li class="nav-item mx-4 font1"><a href="./contact.html" class="nav-link">Contact</a></li>
 			</ul>
@@ -64,7 +67,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Bag<audio id="player1" src="./audio/bag.mp3"></audio>
     						<div>
@@ -80,7 +83,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Bee<audio id="player2" src="./audio/bee.mp3"></audio>
     						<div>
@@ -96,7 +99,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Boy<audio id="player3" src="./audio/boy.mp3"></audio>
     						<div>
@@ -112,7 +115,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Boat<audio id="player4" src="./audio/boat.mp3"></audio>
     						<div>
@@ -128,7 +131,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Bear<audio id="player5" src="./audio/bear.mp3"></audio>
     						<div>
@@ -144,7 +147,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Bird<audio id="player6" src="./audio/bird.mp3"></audio>
     						<div>
@@ -160,7 +163,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Banana<audio id="player7" src="./audio/banana.mp3"></audio>
     						<div>
@@ -176,7 +179,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Bell<audio id="player8" src="./audio/bell.mp3"></audio>
     						<div>
@@ -277,7 +280,7 @@
 
 		<div class="py-5">
 			<a href="./index.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Home</a>
-			<a href="courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Courses</a>
+			<a href="courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Category</a>
 			<a href="./about.html" class="mx-3 mx-md-4 text-decoration-none text-muted">About</a>
 			<a href="./contact.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Contact</a>
 			<p class="text-muted my-3">CopyRight @ 2021</p>
@@ -289,7 +292,10 @@
 	<!-- end footer -->
 
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
-	
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init();
+	  </script>
 		
 	
 

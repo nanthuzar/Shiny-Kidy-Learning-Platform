@@ -21,7 +21,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
 </head>
-<body>
+<body class="body_bg_photo">
 
 	<!-- navbar -->
 	<div class="navbar navbar-expand-lg bg-info navbar-dark">
@@ -34,7 +34,7 @@
 			<div class="collapse navbar-collapse" id="Navbar">
 				<ul class="navbar-nav ms-auto">
 				<li class="nav-item mx-4 font1"><a href="./index.html" class="nav-link">Home</a></li>
-				<li class="nav-item mx-4 font1"><a href="./courses.html" class="nav-link">Courses</a></li>
+				<li class="nav-item mx-4 font1"><a href="./courses.html" class="nav-link">Category</a></li>
 				<li class="nav-item mx-4 font1"><a href="./about.html" class="nav-link">About</a></li>
 				<li class="nav-item mx-4 font1"><a href="./contact.html" class="nav-link">Contact</a></li>
 			</ul>
@@ -42,16 +42,22 @@
 		</div>	
 	</div>
 	<!-- end navbar -->
-
-	<div class="container">
+	<div class="container text-center mt-5">
 		<div class="row">
-			<div class="home-box custom-box">
-				<h3>Having Fun with Games!!</h3>
-					<p>Total number of questions: <span class="total-questions"></span></p>
-					<button class="btn" type="button" onclick="startQuiz()">Start</button>
+			<div class="col-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offset-lg-3 col-lg-6">
+				<img class="img-fluid" src="./images/quiz_cover1.png">
 			</div>
 		</div>
-		<div class="quiz-box custom-box hide">
+				<div class="row mt-4">
+			<div class="col-12 offset-sm-4 col-sm-4 offset-md-4 col-md-4 offest-lg-4 col-lg-4 border bg-light rounded">
+				<div class="home-box custom-box">
+					<h3 class="my-3">Having Fun with Games!!</h3>
+					<p class="my-3">Total number of questions: <span class="total-questions"></span></p>
+					<button class="btn btn-outline-primary" type="button" onclick="startQuiz()">Start</button>
+				</div>
+			</div>
+		</div>
+		<div class="quiz-box custom-box hide border bg-light col-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offest-lg-3 col-lg-6 rounded">
 		<div class="question-number">
 			<!-- Question 1 of 5 -->
 		</div>
@@ -73,7 +79,7 @@
 		</div>
 	</div>
 	
-	<div class="result-box custom-box hide">
+	<div class="result-box custom-box hide text-center mt-5">
 		<h1>Your Score</h1>
 		<h1>Congratulation!!!</h1>
 		<h3><span class="total-score"></span></h3>
@@ -93,7 +99,7 @@
 		</nav>
 		<!-- end pagination -->
 	</div>
-	
+</div>
 
 	<!-- <div class="container" hidden="">
 		<div>
@@ -168,7 +174,7 @@
 
 		<div class="py-5">
 			<a href="#" class="mx-3 mx-md-4 text-decoration-none text-muted">Home</a>
-			<a href="./courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Courses</a>
+			<a href="./courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Category</a>
 			<a href="./about.html" class="mx-3 mx-md-4 text-decoration-none text-muted">About</a>
 			<a href="./contact.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Contact</a>
 			<p class="text-muted my-3">CopyRight @ 2021</p>
