@@ -260,3 +260,72 @@
 	margin-left: 10%;
 }
 /*End of Contact CSS*/
+
+/*About Css ttsh*/
+.top_button{
+	position: fixed;
+	left: 1200px;
+	top: 500px;
+}
+
+.coursel_text{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	font-size: ;
+}
+#about h1{
+	text-align: center;
+	margin: 120px 0px
+	padding: 0px 150px;
+}
+#about hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#passion h3{
+	text-align: center;
+	
+}
+#passion hr{
+	height: 1px;
+	border:none;
+	color: #000;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.background_img{
+	background-image: url(images/img9.jpg);
+	height: 300px;
+	background-attachment: fixed;
+}
+#container hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#story img{
+	border-radius: 60%;
+}
+/*------------end about css--------------*/
