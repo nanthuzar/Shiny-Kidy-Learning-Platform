@@ -198,20 +198,20 @@ body, html{
 #contact_text3 i{
     position: absolute;
     color: white;
-    top: 500px;
+    top: 530px;
     left: 120px;
     font-size: 20;
 }
 #contact_text3 h5{
     position: absolute;
     color: white;
-    top: 500px;
+    top: 530px;
     left: 170px;
     font-size: 18px;
 }
 #contact_text3 p{
     position: absolute;
-    top: 520px;
+    top: 550px;
     left: 170px;
     font-size: 18px;
 }
@@ -220,14 +220,14 @@ body, html{
 #contact_text4 i{
     position: absolute;
     color: white;
-    top: 620px;
+    top: 630px;
     left: 120px;
     font-size: 20;
 }
 #contact_text4 h5{
     position: absolute;
     color: white;
-    top: 620px;
+    top: 630px;
     left: 170px;
     font-size: 18px;
 }
@@ -235,7 +235,7 @@ body, html{
 #social_icon i{
 	position: absolute;
 	color: white;
-    top: 650px;
+    top: 660px;
     left: 170px;
     font-size: 40px;
 }
@@ -243,7 +243,7 @@ body, html{
 #social_icon1 i{
 	position: absolute;
 	color: white;
-    top: 650px;
+    top: 660px;
     left: 220px;
     font-size: 40px;
 }
@@ -251,7 +251,7 @@ body, html{
 #social_icon2 i{
 	position: absolute;
 	color: white;
-    top: 650px;
+    top: 660px;
     left: 270px;
     font-size: 40px;
 }
@@ -259,7 +259,7 @@ body, html{
 #social_icon3 i{
 	position: absolute;
 	color: white;
-    top: 650px;
+    top: 660px;
     left: 320px;
     font-size: 40px;
 }
@@ -267,7 +267,7 @@ body, html{
 #social_icon4 i{
 	position: absolute;
 	color: white;
-    top: 650px;
+    top: 660px;
     left: 370px;
     font-size: 40px;
 }
@@ -282,6 +282,123 @@ body, html{
 	margin-left: 10%;
 }
 /*End of Contact CSS*/
+
+/*Start client logo slider css*/
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/*End client logo slider css*/
 
 /*About Css ttsh*/
 .top_button{
