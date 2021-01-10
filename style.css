@@ -1,3 +1,16 @@
+/*start of activity function*/
+body, html{
+	height: 100%;
+}
+
+.body_bg_photo{
+	background-image: url(./images/body_background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .custom-box{
 	animation: fadeInRight 1s ease;
 }
@@ -13,7 +26,6 @@
 	}
 }
 
-
 .custom-box.hide{
 	display: none;
 }
@@ -23,6 +35,14 @@
 	font-family: 'Merriweather';
 	font-size: 16px;
 	color: black;
+}
+
+.font2{
+	font-family: 'Oswald';
+}
+
+.font3{
+	font-family: 'Playfair';
 }
 
 .bg-color{
@@ -116,6 +136,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/*end of activity function*/
 
 /*Start Contact CSS*/
 #contact_style img{
@@ -274,11 +296,13 @@
 	left: 200px;
 	font-size: ;
 }
+
 #about h1{
 	text-align: center;
 	margin: 120px 0px
 	padding: 0px 150px;
 }
+
 #about hr{
 	height: 1px;
 	border:none;
@@ -288,10 +312,12 @@
 	text-align: center;
 	margin: 50px auto;
 }
+
 #passion h3{
 	text-align: center;
 	
 }
+
 #passion hr{
 	height: 1px;
 	border:none;
@@ -307,6 +333,7 @@
 	height: 300px;
 	background-attachment: fixed;
 }
+
 #container hr{
 	height: 1px;
 	border:none;
@@ -316,6 +343,7 @@
 	text-align: center;
 	margin: 50px auto;
 }
+
 #story hr{
 	height: 1px;
 	border:none;
@@ -325,7 +353,70 @@
 	text-align: center;
 	margin: 50px auto;
 }
+
 #story img{
 	border-radius: 60%;
 }
 /*------------end about css--------------*/
+
+/*start index page*/
+.pic{
+	color: blue;
+}
+
+.videos{
+	color: #8333FF;
+}
+
+.audio{
+	color: #E933FF;
+}
+
+.game{
+	color: #FF3368;
+}
+
+.smile{
+	color: #FF8D33;
+}
+
+/*.learn{
+	animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInRight{
+	0%{
+		transform: translateX(40px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+*/
+/*.learn[data-scroll="in"]{
+	0%{
+		transform: translateX(40px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}*/
+/*	transform: translateX(0);
+	transition-delay: 1s;
+	opacity: 1;*/
+/*.learn{
+	transform: translate(40px);
+	opacity: 0;
+	position: relative;
+	transition: 1s;
+}
+
+.learn[data-scroll="in"]{
+	transform: translate(0px);
+	opacity: 1;
+}*/
+	/*transform: translateX(0);	
+	transition-delay: 1s;

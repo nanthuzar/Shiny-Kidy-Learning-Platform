@@ -20,8 +20,11 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
+	<!-- AOS = animated on scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 </head>
-<body>
+<body class="body_bg_photo">
 
 	<!-- navbar -->
 	<div class="navbar navbar-expand-lg bg-info navbar-dark">
@@ -34,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="Navbar">
 				<ul class="navbar-nav ms-auto">
 				<li class="nav-item mx-4 font1"><a href="./index.html" class="nav-link">Home</a></li>
-				<li class="nav-item mx-4 font1"><a href="./courses.html" class="nav-link">Courses</a></li>
+				<li class="nav-item mx-4 font1"><a href="./courses.html" class="nav-link">Category</a></li>
 				<li class="nav-item mx-4 font1"><a href="./about.html" class="nav-link">About</a></li>
 				<li class="nav-item mx-4 font1"><a href="./contact.html" class="nav-link">Contact</a></li>
 			</ul>
@@ -45,8 +48,8 @@
 
 
 	<!-- carousel -->
-	<h1 class="text-center text-danger my-5">Welcom To Shiny-Kidy-Learning Centre</h1>
-	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+	<!-- <h1 class="text-center text-danger my-5">Welcom To Shiny-Kidy-Learning Centre</h1> -->
+	<!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   	<div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
       	<img src="images/carousel.jpg" class="d-block w-100 " alt="img-fluid">
@@ -71,47 +74,47 @@
     	<span class="carousel-control-next-icon" aria-hidden="true"></span>
     	<span class="visually-hidden">Next</span>
   	</a>
-	</div>
+	</div> -->
 	<!-- end carousel -->
  
 
 	<!-- courses -->
-	<h3 class="text-center text-info my-5">Courses what we offer</h3>
+	<h3 class="text-center text-info my-5">Category what we offer</h3>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Alphabets</h4>
 					</div>
 					<img src="images/apple.png" class="card-img-top">
 					<div class="card-body">
 						<p>Kid will learn alphabets with pictures with having fan. Let's go to learn!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
+						<div class="text-center"><a href="./alphabets.html" class="btn btn-outline-primary">Learn</a></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Nursery songs</h4>
 					</div>
 					<img src="images/apple.png" class="card-img-top">
 					<div class="card-body">
 						<p>Kid can sing and dance happily together by watching nursery videos. Let's sing together!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
+						<div class="text-center"><a href="./nursery.html" class="btn btn-outline-primary">Learn</a></div>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">Activity</h4>
 					</div>
 					<img src="images/apple.png" class="card-img-top">
 					<div class="card-body">
 						<p>Kid can play simple quizzes to gain more knowledge. Let's fun!!</p>
-						<button class="btn btn-outline-primary">Learn</button>
+						<div class="text-center"><a href="./activity.html" class="btn btn-outline-primary">Learn</a></div>
 					</div>
 				</div>
 			</div>
@@ -126,14 +129,14 @@
 				<h2 class="text-center">What we will learn?</h2>
 				<img src="images/carousel1.jpg" class="img-fluid">
 			</div>
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
-				<h4 class="mx-3"><i class="far fa-images mx-3"></i>Learn with pictures</h4>
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5" data-aos="fade-left" data-aos-delay="400">
+				<h4 class="mx-3"><i class="far fa-images mx-3 pic"></i>Learn with pictures</h4>
 				<p class="mx-5">Kids can learn with animation pictures.</p>
-				<h4 class="mx-3"><i class="fas fa-video mx-3"></i>Learn with videos</h4>
+				<h4 class="mx-3"><i class="fas fa-video mx-3 videos"></i>Learn with videos</h4>
 				<p class="mx-5">Kids can sing, pronounce and dance by learning with videos.</p>
-				<h4 class="mx-3"><i class="fas fa-file-audio mx-3"></i>Learn with audio files.</h4>
+				<h4 class="mx-3"><i class="fas fa-file-audio mx-3 audio"></i>Learn with audio files.</h4>
 				<p class="mx-5">Kids can learn things by listening audio files.</p>
-				<h4 class="mx-3"><i class="fas fa-gamepad mx-3"></i>Learn with audio files.</h4>
+				<h4 class="mx-3"><i class="fas fa-gamepad mx-3 game"></i>Learn with audio files.</h4>
 				<p class="mx-5">Kids can have fun by playing simple games which they learned from this website.</p>
 			</div>
 		</div>
@@ -172,7 +175,7 @@
 			<div class="col-md-3">
 				<div class="row">
 					<div class="col-4 text-center">
-						<i class="far fa-smile-beam fa-3x"></i>
+						<i class="far fa-smile-beam fa-3x smile"></i>
 					</div>
 					<div class="col-8">
 						<h5>Personalized Learning</h5>
@@ -198,7 +201,7 @@
 
 		<div class="py-5">
 			<a href="#" class="mx-3 mx-md-4 text-decoration-none text-muted">Home</a>
-			<a href="./courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Courses</a>
+			<a href="./courses.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Category</a>
 			<a href="./about.html" class="mx-3 mx-md-4 text-decoration-none text-muted">About</a>
 			<a href="./contact.html" class="mx-3 mx-md-4 text-decoration-none text-muted">Contact</a>
 			<p class="text-muted my-3">CopyRight @ 2021</p>
@@ -211,7 +214,11 @@
 
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	<!-- <script src="app.js"></script> -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init();
+	  </script>
+
 
 </body>
 </html>

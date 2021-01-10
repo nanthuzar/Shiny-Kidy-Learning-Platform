@@ -68,7 +68,7 @@ function getNewQuestion(){
 
 	let animationDelay = 0.2;
 	//create option in html
-	for (var i = 0; i < optionLen; i++) {
+	for (let i = 0; i < optionLen; i++) {
 		//random option
 		const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];
 		//const optionIndex = availableOptions[Math.floor(Math)]
@@ -86,6 +86,7 @@ function getNewQuestion(){
 		optionContainer.appendChild(option);
 		option.setAttribute("onclick", "getResult(this)");
 	}
+	questionCounter++;
 }
 
 function getResult(element){

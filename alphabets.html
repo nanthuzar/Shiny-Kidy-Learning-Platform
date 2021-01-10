@@ -20,8 +20,11 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
+	<!-- AOS = animated on scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 </head>
-<body>
+<body class="body_bg_photo">
 
 	<!-- navbar -->
 	<div class="navbar navbar-expand-lg bg-info navbar-dark">
@@ -44,9 +47,8 @@
 	<!-- end navbar -->
 
 	<!-- Category -->
-	<h3 class="text-center text-info mt-5 mb-4">Alphabets</h3>
-
 	<div class="container">
+		<h3 class="text-center text-info mt-5 mb-4">Alphabets</h3>
 		<div class="row">
 			<div class="dropdown text-center mb-4">
 			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,11 +62,12 @@
 			  </ul>
 			</div>
 		</div>
+	</div>
 	
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">A</h4>
 					</div>
@@ -76,7 +79,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">B</h4>
 					</div>
@@ -88,7 +91,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">C</h4>
 					</div>
@@ -101,7 +104,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">D</h4>
 					</div>
@@ -114,7 +117,7 @@
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<div class="card-header">
 						<h4 class="card-title text-center">E</h4>
 					</div>
@@ -126,20 +129,22 @@
 				</div>
 			</div>
 		</div>
-	<!-- pagination -->
-	<nav aria-label="Page navigation example">
-	  		<ul class="pagination justify-content-end">
-	  
-			    <!-- <li class="page-item"><a class="page-link" href="./Listening.html">Listening</a></li> -->
-			    <li class="page-item"><a class="page-link" href="./courses.html">Category</a></li>
-			    <li class="page-item"><a class="page-link" href="./nursery.html">Nursery</a></li>
-			    <li class="page-item"><a class="page-link" href="./activity.html">Activity</a></li>
 
-			 </ul>
-	</nav>	
+		<div class="row">
+			<!-- pagination -->
+			<nav aria-label="Page navigation example">
+		  		<ul class="pagination justify-content-end">
+		  
+				    <!-- <li class="page-item"><a class="page-link" href="./Listening.html">Listening</a></li> -->
+				    <li class="page-item"><a class="page-link" href="./courses.html">Category</a></li>
+				    <li class="page-item"><a class="page-link" href="./nursery.html">Nursery</a></li>
+				    <li class="page-item"><a class="page-link" href="./activity.html">Activity</a></li>
+
+				 </ul>
+			</nav>	
 	<!-- end pagination -->
+		</div>
 	</div>
-
 	<!-- end Category -->
 
 
@@ -210,7 +215,10 @@
 
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
 	
-		
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init();
+	  </script>
 	
 
 </body>
