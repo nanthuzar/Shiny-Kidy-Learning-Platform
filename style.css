@@ -284,6 +284,7 @@ body, html{
 /*End of Contact CSS*/
 
 /*Start client logo slider css*/
+
 .slick-slide {
     margin: 0px 20px;
 }
@@ -482,6 +483,69 @@ body, html{
 
 #story img{
 	border-radius: 60%;
+}
+#logo hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#category hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#courses hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#logo hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#location hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#slideshow hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
+}
+#touch hr{
+	height: 1px;
+	border:none;
+	color: blue;
+	background-color: #000;
+	width:50%;
+	text-align: center;
+	margin: 50px auto;
 }
 /*------------end about css--------------*/
 /*About Css ttsh*/
