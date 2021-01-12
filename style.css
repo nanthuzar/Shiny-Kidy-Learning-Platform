@@ -156,7 +156,7 @@ div#Navbar a.active{
 #contact_text i{
     position: absolute;
     color: white;
-    top: 180px;
+    top: 230px;
     left: 120px;
     font-size: 20;
 }
@@ -164,82 +164,82 @@ div#Navbar a.active{
 #contact_text h5{
     position: absolute;
     color: white;
-    top: 180px;
+    top: 230px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 #contact_text p{
     position: absolute;
     color: white;
-    top: 210px;
+    top: 260px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*Phone Discu*/
 #contact_text2 i{
     position: absolute;
     color: white;
-    top: 350px;
+    top: 370px;
     left: 120px;
     font-size: 20;
 }
 #contact_text2 h5{
     position: absolute;
     color: white;
-    top: 350px;
+    top: 370px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 #contact_text2 p{
     position: absolute;
-    top: 380px;
+    top: 400px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*Gmail*/
 #contact_text3 i{
     position: absolute;
     color: white;
-    top: 530px;
+    top: 500px;
     left: 120px;
     font-size: 20;
 }
 #contact_text3 h5{
     position: absolute;
     color: white;
-    top: 530px;
+    top: 500px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 #contact_text3 p{
     position: absolute;
-    top: 550px;
+    top: 520px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*Social*/
 #contact_text4 i{
     position: absolute;
     color: white;
-    top: 630px;
+    top: 620px;
     left: 120px;
     font-size: 20;
 }
 #contact_text4 h5{
     position: absolute;
     color: white;
-    top: 630px;
+    top: 620px;
     left: 170px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #social_icon i{
 	position: absolute;
 	color: white;
-    top: 660px;
+    top: 650px;
     left: 170px;
     font-size: 40px;
 }
@@ -247,7 +247,7 @@ div#Navbar a.active{
 #social_icon1 i{
 	position: absolute;
 	color: white;
-    top: 660px;
+    top: 650px;
     left: 220px;
     font-size: 40px;
 }
@@ -255,7 +255,7 @@ div#Navbar a.active{
 #social_icon2 i{
 	position: absolute;
 	color: white;
-    top: 660px;
+    top: 650px;
     left: 270px;
     font-size: 40px;
 }
@@ -263,7 +263,7 @@ div#Navbar a.active{
 #social_icon3 i{
 	position: absolute;
 	color: white;
-    top: 660px;
+    top: 650px;
     left: 320px;
     font-size: 40px;
 }
@@ -271,7 +271,7 @@ div#Navbar a.active{
 #social_icon4 i{
 	position: absolute;
 	color: white;
-    top: 660px;
+    top: 650px;
     left: 370px;
     font-size: 40px;
 }
