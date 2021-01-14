@@ -21,10 +21,10 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
 </head>
-<body class="body_bg_photo">
+<body>
 
 	<!-- navbar -->
-	<div class="navbar navbar-expand-lg bg-info navbar-dark">
+	<div class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
 		<div class="container">
 			<img src="images/logo.png" class="logo img" width="50px" height="50px">
 			<a href="" class="navbar-brand logo me-auto">Shiny Kidy</a>
@@ -43,25 +43,13 @@
 		</div>	
 	</div>
 	<!-- end navbar -->
-	<div class="container text-center mt-5">
+
+	<div class="container text-center mt-5 anchor">
 		<div class="row">
 			<div class="col-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offset-lg-3 col-lg-6">
 				<img class="img-fluid" src="./images/quiz_cover1.png">
 			</div>
 		</div>
-			<!-- <div class="row mt-4">
-			<div class="col-12 offset-sm-4 col-sm-4 offset-md-4 col-md-4 offest-lg-4 col-lg-4 border bg-light rounded">
-				<div class="home-box custom-box">
-					<h3 class="my-3">Having Fun with Games!!</h3>
-					<p class="my-3">Total number of questions: <span class="total-questions"></span></p>
-					<button class="btn btn-outline-primary" type="button" onclick="startQuiz()">Start</button>
-				</div>
-			</div>
-		</div> -->
-
-
-
-
 		<div class="row mt-4">
 			<div class="col-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offset-lg-3 col-lg-6 mb-4">
 				<div class="home-box custom-box">
@@ -95,11 +83,6 @@
 								<button type="button" class="btn btn-outline-primary my-3" onclick="next()">Next</button>
 							</div>
 							<div class="answers-indicator">
-								<!-- <div></div>
-								<div></div>
-								<div></div>
-								<div></div>
-								<div></div> -->
 							</div>
 						</div>
 					</div>
@@ -124,38 +107,7 @@
 			</div>
 		</div>
 
-<!-- 
-		<div class="quiz-box custom-box hide border bg-light col-12 offset-sm-3 col-sm-6 offset-md-3 col-md-6 offest-lg-3 col-lg-6 rounded">
-		<div class="question-number"> -->
-			<!-- Question 1 of 5 -->
-<!-- 		</div> -->
-		<!-- <div class="question-text">
-			What is apple?
-		</div>
-		<div class="option-container">
-
-		</div> -->
-		<!-- <div class="next-question-btn">
-			<button type="button" class="btn" onclick="next()">Next</button>
-		</div> -->
-<!-- 		<div class="answers-indicator">
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-		</div> -->
-
-	
-<!-- 	<div class="result-box custom-box hide text-center mt-5">
-		<h1>Your Score</h1>
-		<h1>Congratulation!!!</h1> -->
-<!-- 		<h3><span class="total-score"></span></h3>
-		<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
-		<button type="button" class="btn" onclick="goToHome()">Go To Home</button>
-	</div> -->
-
-	<!-- pagination -->
+		<!-- pagination -->
 		<nav aria-label="Page navigation example">
 		  	<ul class="pagination justify-content-end">
 		    	
@@ -167,6 +119,7 @@
 			</ul>
 		</nav>
 		<!-- end pagination -->
+
 	</div>
 </div>
 

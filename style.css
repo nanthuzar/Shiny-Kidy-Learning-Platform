@@ -3,17 +3,21 @@ body, html{
 	height: 100%;
 }
 
+.anchor{
+	padding-top: 50px;
+}
+
 div#Navbar a.active{
 	border-bottom: 2px solid #ffff93
 }
 
-.body_bg_photo{
+/*.body_bg_photo{
 	background-image: url(./images/body_background.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}
+}*/
 
 .custom-box{
 	animation: fadeInRight 1s ease;
@@ -58,6 +62,12 @@ div#Navbar a.active{
 	animation: fadeIn 0.3s ease forwards;
 	position: relative;
 	overflow: hidden;
+}
+
+.option{
+	border: 2px solid purple;
+	margin: 10px 30px;
+	padding: 10px 0px;
 }
 
 .option-container .option.already-answer{
@@ -733,6 +743,23 @@ div#Navbar a.active{
 
 .game{
 	color: #FF3368;
+}
+
+.sidenav{
+	width: 261px;
+	height: 300px;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	background: #eee;
+}
+
+.sidenav a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #2196f3;
+	display: block;
 }
 
 /*.smile{
