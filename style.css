@@ -23,6 +23,10 @@ div#Navbar a.active{
 	animation: fadeInRight 1s ease;
 }
 
+.custom_breadcrumb{
+	padding-top: 140px;
+}
+
 @keyframes fadeInRight{
 	0%{
 		transform: translateX(40px);
